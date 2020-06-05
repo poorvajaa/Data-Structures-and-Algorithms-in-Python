@@ -15,6 +15,7 @@ def selection_sort(array):
     # print(time.time() - start_time)
 
 
-unsorted_array = [8, 9, 27, 28, 18, 4, 9]
-selection_sort(unsorted_array)
-print(unsorted_array)
+if __name__ == '__main__':
+    unsorted_array = [8, 9, 27, 28, 18, 4, 9]
+    selection_sort(unsorted_array)
+    print(unsorted_array)
