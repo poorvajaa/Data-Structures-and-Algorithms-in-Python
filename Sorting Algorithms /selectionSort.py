@@ -1,7 +1,6 @@
 # import time
 
 
-# Selection Sort
 def selection_sort(array):
     # start_time = time.time()
     for pointer in range(len(array) - 1, 0, -1):
